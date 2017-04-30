@@ -16,10 +16,14 @@ Page({
     });
   },
   tap(e) {
-    console.log(e);
     if (e.target.dataset.title === '意识丧失'){
       wx.navigateTo({
         url: '../unconsciousness/unconsciousness',
+      });
+    }
+    if (e.target.dataset.title === '烧烫伤' && e.target.dataset.type === '应急'){
+      wx.navigateTo({
+        url: '../burning/burning',
       });
     }
   },

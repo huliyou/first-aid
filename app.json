@@ -3,7 +3,8 @@
     "pages/tutorial/tutorial",
     "pages/appeal/appeal",
     "pages/unconsciousness/unconsciousness",
-    "pages/breathe/breathe"
+    "pages/breathe/breathe",
+    "pages/burning/burning"
   ],
 
   "window":{
