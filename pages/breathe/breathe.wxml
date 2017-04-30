@@ -1,0 +1,11 @@
+<view>
+  进度条
+  <swiper>
+    <swiper-item>
+      <text>让病人侧卧，头部后仰，可以跟他说话，安抚他，即使没意识也可能听见。</text>
+    </swiper-item>
+    <swiper-item>
+      <text>尽快拨打120。</text>
+    </swiper-item>
+  </swiper>
+</view>
