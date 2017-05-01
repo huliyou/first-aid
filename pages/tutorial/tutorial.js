@@ -16,9 +16,9 @@ Page({
     });
   },
   tap(e) {
-    if (e.target.dataset.title === '意识丧失'){
+    if (e.target.dataset.title === '意识丧失' && e.target.dataset.type === '应急'){
       wx.navigateTo({
-        url: '../unconsciousness/unconsciousness',
+        url: '../isBreath/isBreath',
       });
     }
     if (e.target.dataset.title === '烧烫伤' && e.target.dataset.type === '应急'){
@@ -26,6 +26,12 @@ Page({
         url: '../burning/burning',
       });
     }
+    if (e.target.dataset.title === '意识丧失' && e.target.dataset.type === '学习'){
+      wx.navigateTo({
+        url: '../unconsciousnessStudy/unconsciousnessStudy',
+      });
+    }
+
   },
   change(e) {
     this.setData({
