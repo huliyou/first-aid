@@ -2,7 +2,8 @@
   "pages":[
     "pages/tutorial/tutorial",
     "pages/appeal/appeal",
-    "pages/unconsciousness/unconsciousness",
+    "pages/isBreath/isBreath",
+    "pages/unconsciousnessStudy/unconsciousnessStudy",
     "pages/breathe/breathe",
     "pages/burning/burning"
   ],

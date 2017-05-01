@@ -1,6 +1,6 @@
 .tutorial-list-cell {
   display: flex;
-  font-size: 50rpx;
+  font-size: 40rpx;
   color: #23454D;
   flex-direction: row;
   border-bottom: 1px solid rgba(178,190,193, 0.4);
@@ -23,4 +23,5 @@
 
 .tutorial-list-cell-image {
   width: 100%;
+  margin-top: 40rpx;
 }

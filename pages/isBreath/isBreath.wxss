@@ -1,3 +1,4 @@
+@import "../../libs/animate.wxss"
 .unconsciousness {
   height: 100vh;
   display: flex;
