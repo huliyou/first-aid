@@ -20,6 +20,8 @@
   align-items: center;
   /*justify-content: center;*/
   flex-shrink: 0;
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 1s;
 }
 
 .tabs-container {

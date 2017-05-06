@@ -1,5 +1,5 @@
 <view class="tutorial-container">
-  <view class="tutorial-title animated {{ selectedTab === 0 ? 'fadeInRight' : 'fadeInLeft' }}">
+  <view class="tutorial-title animated fadeIn">
     {{ selectedTab === 0 ? emergencyTitle : studayTitle }}
   </view>
   <view class="tabs-container" >
