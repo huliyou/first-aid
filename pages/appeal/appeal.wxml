@@ -1,12 +1,19 @@
 <view class="appeal-container">
   <view class="appeal-title">你的位置</view>
-  <view class="appeal-address">
+  <view wx:if="{{ !isFetching && !isError }}" class="appeal-address">
     <view>
       <span class="appeal-address-city">{{city}}</span>
       <span class="appeal-address-area">{{district}}</span>
     </view>
     <view wx:if="{{ street.length <= 8 }}" class="appeal-address-detail" >{{street}}</view>
     <view wx:if="{{ street.length > 8 }}" class="appeal-address-detail-small" >{{street}}</view>
+  </view>
+  <view class="isFetching" wx:if="{{ isFetching }}">
+    加载中...
+  </view>
+  <view wx:if="{{ !isFetching && isError }}" class="isError">
+    <image class="errorImage" src="../../assets/images/invalidName.png" />
+    <view class="errorMessage">定位能让你在陌生地方准确了解自己的位置。</view>
   </view>
   <view class="appeal-telephone-container">
     <image

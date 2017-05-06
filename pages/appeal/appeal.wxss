@@ -18,8 +18,8 @@
   color: #1B4149;
   font-family: PingFangSC;
   font-size: 80rpx;
-  font-weight: normal;
-  /*font-weight: lighter;*/
+  /*font-weight: normal;*/
+  font-weight: lighter;
   /*padding: 30rpx;*/
   margin-left: 50rpx;
   flex: 1;
@@ -31,10 +31,10 @@
   white-space:nowrap;
 }
 .appeal-address-detail {
-  font-weight: normal;
+  font-weight: lighter;
 }
 .appeal-address-detail-small {
-  font-weight: normal;
+  font-weight: lighter;
   font-size: 50rpx;
 }
 
@@ -52,4 +52,37 @@
 .appeal-telephone {
   height: 300rpx;
   width: 300rpx;
+}
+.isFetching {
+  margin-top: 120rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20rpx 0;
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+  border-bottom: 1px solid rgba(178,190,193, 0.4);
+}
+.isError {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 248, 241);
+  font-size: 28rpx;
+  letter-spacing: 1rpx;
+  margin: 50rpx 50rpx;
+  position: relative;
+  height: 237rpx;
+}
+.errorImage {
+  width: 528rpx;
+  height: 178rpx;
+  position: absolute;
+  top: -40rpx
+}
+.errorMessage {
+  border-top: 1px solid rgb(247, 235, 223);
+  padding: 21rpx 21rpx;
+  color: rgb(250, 88, 52);
 }
