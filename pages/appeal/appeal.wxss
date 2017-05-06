@@ -62,6 +62,7 @@
   margin-left: 60rpx;
   margin-right: 60rpx;
   border-bottom: 1px solid rgba(178,190,193, 0.4);
+  width: 631rpx;
 }
 .isError {
   display: flex;

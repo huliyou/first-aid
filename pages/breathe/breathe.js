@@ -7,6 +7,8 @@ Page({
     district: '',
     street: '',
     street_number: '',
+    isFetching: true,
+    isError: false,
   },
   next: function() {
     this.setData({
@@ -29,11 +31,15 @@ Page({
       ak: 'L0Npf6qyYzrXxHSnwfGccjvBoKj0my8E'
     });
     var fail = function(data) {
-      console.log(data)
+      this.setData({
+        isError: true,
+        isFetching: false,
+      });
     };
     var success = function(data) {
-      console.warn(data);
       that.setData({
+        isFetching: false,
+        isError: false,
         city: data.originalData.result.addressComponent.city,
         district: data.originalData.result.addressComponent.district,
         street: `${data.originalData.result.addressComponent.street}${data.originalData.result.addressComponent.street_number}`,
