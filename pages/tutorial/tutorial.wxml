@@ -1,6 +1,9 @@
 <view class="tutorial-container">
-  <view class="tutorial-title animated fadeIn">
-    {{ selectedTab === 0 ? emergencyTitle : studayTitle }}
+  <view wx:if="{{ selectedTab === 0}}" class="tutorial-title animated fadeIn">
+    {{emergencyTitle}}
+  </view>
+  <view wx:if="{{ selectedTab === 1}}" class="tutorial-title animated fadeIn">
+    {{studyTitle}}
   </view>
   <view class="tabs-container" >
     <view class="tabs">
@@ -21,7 +24,7 @@
     </view>
     <view
       class="bar"
-      style="margin-left: {{selectedTab === 0 ? '5%' : '55%'}}"
+      style="{{selectedTab === 0 ?'animation-name: bar-animation-reverse; margin-left:5%': 'animation-name: bar-animation; margin-left: 55%'}}"
     />
   </view>
   <swiper class="swiper" current="{{selectedTab}}" bindchange="change">

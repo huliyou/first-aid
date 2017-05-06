@@ -2,7 +2,7 @@ Page({
   data: {
     selectedTab: 0,
     emergencyTitle: '应急，事不容迟。',
-    studayTitle: '学习，未雨绸缪。',
+    studyTitle: '学习，未雨绸缪。',
     emergencyList: [
 
     ],
