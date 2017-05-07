@@ -32,7 +32,12 @@ Page({
       wx.navigateTo({
         url: '../cerebralApoplexyStudy/cerebralApoplexyStudy',
       });
+    } else if (e.target.dataset.title === '肌肉痉挛' && e.target.dataset.type === '学习'){
+      wx.navigateTo({
+        url: '../crampStudy/crampStudy',
+      });
     }
+
   },
   change(e) {
     this.setData({

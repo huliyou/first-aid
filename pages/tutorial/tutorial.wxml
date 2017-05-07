@@ -37,7 +37,8 @@
     </swiper-item>
     <swiper-item class="swiper-item">
       <template is="tutorial" data="{{ title: '意识丧失', type: '学习', tap: tap, src: '../../assets/images/unconsciousness.svg' }}" />
-      <template is="tutorial" data="{{ title: '脑中风', type: '学习', tap: tap, src: '../../assets/images/cerebral apoplexy.svg' }}" />
+      <template is="tutorial" data="{{ title: '脑中风', type: '学习', tap: tap, src: '../../assets/images/cerebral-apoplexy.svg' }}" />
+      <template is="tutorial" data="{{ title: '肌肉痉挛', type: '学习', tap: tap, src: '../../assets/images/cramp.svg' }}" />
     </swiper-item>
   </swiper>
 </view>
