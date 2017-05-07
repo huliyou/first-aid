@@ -12,43 +12,44 @@ Page({
   },
   bindSelectedTab(e) {
     this.setData({
-      selectedTab: Number(e.target.dataset.tab),
+      selectedTab: Number(e.currentTarget.dataset.tab),
     });
   },
   tap(e) {
-    if (e.target.dataset.title === '意识丧失' && e.target.dataset.type === '应急'){
+    console.log(e);
+    if (e.currentTarget.dataset.title === '意识丧失' && e.currentTarget.dataset.type === '应急'){
       wx.navigateTo({
         url: '../isBreath/isBreath',
       });
-    } else if (e.target.dataset.title === '烧烫伤' && e.target.dataset.type === '应急'){
+    } else if (e.currentTarget.dataset.title === '烧烫伤' && e.currentTarget.dataset.type === '应急'){
       wx.navigateTo({
         url: '../burning/burning',
       });
-    } else if (e.target.dataset.title === '肌肉痉挛' && e.target.dataset.type === '应急'){
+    } else if (e.currentTarget.dataset.title === '肌肉痉挛' && e.currentTarget.dataset.type === '应急'){
       wx.navigateTo({
         url: '../cramp/cramp',
       });
-    } else if (e.target.dataset.title === '脑中风' && e.target.dataset.type === '应急'){
+    } else if (e.currentTarget.dataset.title === '脑中风' && e.currentTarget.dataset.type === '应急'){
       wx.navigateTo({
         url: '../cerebralApoplexy/cerebralApoplexy',
       });
-    } else if (e.target.dataset.title === 'AMI' && e.target.dataset.type === '应急'){
+    } else if (e.currentTarget.dataset.title === 'AMI' && e.currentTarget.dataset.type === '应急'){
       wx.navigateTo({
         url: '../AMI/AMI',
       });
-    } else if (e.target.dataset.title === '意识丧失' && e.target.dataset.type === '学习'){
+    } else if (e.currentTarget.dataset.title === '意识丧失' && e.currentTarget.dataset.type === '学习'){
       wx.navigateTo({
         url: '../unconsciousnessStudy/unconsciousnessStudy',
       });
-    } else if (e.target.dataset.title === '脑中风' && e.target.dataset.type === '学习'){
+    } else if (e.currentTarget.dataset.title === '脑中风' && e.currentTarget.dataset.type === '学习'){
       wx.navigateTo({
         url: '../cerebralApoplexyStudy/cerebralApoplexyStudy',
       });
-    } else if (e.target.dataset.title === '肌肉痉挛' && e.target.dataset.type === '学习'){
+    } else if (e.currentTarget.dataset.title === '肌肉痉挛' && e.currentTarget.dataset.type === '学习'){
       wx.navigateTo({
         url: '../crampStudy/crampStudy',
       });
-    } else if (e.target.dataset.title === 'AMI' && e.target.dataset.type === '学习'){
+    } else if (e.currentTarget.dataset.title === 'AMI' && e.currentTarget.dataset.type === '学习'){
       wx.navigateTo({
         url: '../AMIStudy/AMIStudy',
       });
