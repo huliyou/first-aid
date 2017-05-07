@@ -1,0 +1,7 @@
+@import "../../components/tutorial-list/tutorialList.wxss"
+
+.tutorial-list-cell {
+  font-size: 34rpx;
+  line-height: 54rpx;
+  letter-spacing: 1rpx;
+}

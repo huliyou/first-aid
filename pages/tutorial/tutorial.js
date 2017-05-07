@@ -20,18 +20,19 @@ Page({
       wx.navigateTo({
         url: '../isBreath/isBreath',
       });
-    }
-    if (e.target.dataset.title === '烧烫伤' && e.target.dataset.type === '应急'){
+    } else if (e.target.dataset.title === '烧烫伤' && e.target.dataset.type === '应急'){
       wx.navigateTo({
         url: '../burning/burning',
       });
-    }
-    if (e.target.dataset.title === '意识丧失' && e.target.dataset.type === '学习'){
+    } else if (e.target.dataset.title === '意识丧失' && e.target.dataset.type === '学习'){
       wx.navigateTo({
         url: '../unconsciousnessStudy/unconsciousnessStudy',
       });
+    } else if (e.target.dataset.title === '脑中风' && e.target.dataset.type === '学习'){
+      wx.navigateTo({
+        url: '../cerebralApoplexyStudy/cerebralApoplexyStudy',
+      });
     }
-
   },
   change(e) {
     this.setData({
