@@ -10,7 +10,8 @@
     "pages/breathe/breathe",
     "pages/noBreath/noBreath",
     "pages/burning/burning",
-    "pages/cramp/cramp"
+    "pages/cramp/cramp",
+    "pages/AMI/AMI"
   ],
 
   "window":{

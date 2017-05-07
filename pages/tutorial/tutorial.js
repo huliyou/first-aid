@@ -28,6 +28,10 @@ Page({
       wx.navigateTo({
         url: '../cramp/cramp',
       });
+    }  else if (e.target.dataset.title === 'AMI' && e.target.dataset.type === '应急'){
+      wx.navigateTo({
+        url: '../AMI/AMI',
+      });
     } else if (e.target.dataset.title === '意识丧失' && e.target.dataset.type === '学习'){
       wx.navigateTo({
         url: '../unconsciousnessStudy/unconsciousnessStudy',
