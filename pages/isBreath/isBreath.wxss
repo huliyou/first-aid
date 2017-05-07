@@ -28,3 +28,48 @@
   border: 1px solid #B2BEC1;
   border-radius: 100rpx;
 }
+
+.modal {
+  z-index: 10;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-border {
+  color: rgb(35, 69, 77);
+  width: 651rpx;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10rpx;
+  padding: 20rpx 20rpx;
+}
+.modal-title {
+  font-weight: bold;
+  margin: 44rpx 0;
+}
+.modal-description {
+  line-height: 54rpx;
+  letter-spacing: 1rpx;
+}
+.modal-image {
+  width: 516rpx;
+  height: 317rpx;
+}
+.modal-confirm {
+  color: rgb(0, 188, 155);
+  padding: 24rpx 0;
+  border-top: 1px solid rgba(178,190,193, 0.4);
+  width: 100%;
+  text-align: center;
+  margin-top: 20rpx;
+}
