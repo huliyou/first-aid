@@ -10,6 +10,7 @@
 
 .tutorial-list-cell-number {
   background-color: #FA5834;
+  font-size: 40rpx;
   color: white;
   flex-shrink: 0;
   border-radius: 70rpx;
@@ -22,7 +23,8 @@
 }
 
 .tutorial-list-cell-image {
-  width: 100%;
+  width: 548rpx;
+  height: 548rpx;
   margin-top: 40rpx;
 }
 

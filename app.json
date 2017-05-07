@@ -27,7 +27,7 @@
     "selectedColor": "#FA5834",
     "list": [{
       "pagePath": "pages/tutorial/tutorial",
-      "text": "教程",
+      "text": "指南",
       "iconPath": "./assets/images/tutorial-tabbar.png",
       "selectedIconPath": "./assets/images/selected-tutorial-tabbar.png"
     }, {

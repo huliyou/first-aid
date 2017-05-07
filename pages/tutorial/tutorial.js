@@ -25,15 +25,11 @@ Page({
       wx.navigateTo({
         url: '../burning/burning',
       });
-    } else if (e.currentTarget.dataset.title === '肌肉痉挛' && e.currentTarget.dataset.type === '应急'){
-      wx.navigateTo({
-        url: '../cramp/cramp',
-      });
     } else if (e.currentTarget.dataset.title === '脑中风' && e.currentTarget.dataset.type === '应急'){
       wx.navigateTo({
         url: '../cerebralApoplexy/cerebralApoplexy',
       });
-    } else if (e.currentTarget.dataset.title === 'AMI' && e.currentTarget.dataset.type === '应急'){
+    } else if (e.currentTarget.dataset.title === '心肌梗死' && e.currentTarget.dataset.type === '应急'){
       wx.navigateTo({
         url: '../AMI/AMI',
       });
@@ -45,11 +41,11 @@ Page({
       wx.navigateTo({
         url: '../cerebralApoplexyStudy/cerebralApoplexyStudy',
       });
-    } else if (e.currentTarget.dataset.title === '肌肉痉挛' && e.currentTarget.dataset.type === '学习'){
+    } else if (e.currentTarget.dataset.title === '抽筋' && e.currentTarget.dataset.type === '学习'){
       wx.navigateTo({
         url: '../crampStudy/crampStudy',
       });
-    } else if (e.currentTarget.dataset.title === 'AMI' && e.currentTarget.dataset.type === '学习'){
+    } else if (e.currentTarget.dataset.title === '心肌梗死' && e.currentTarget.dataset.type === '学习'){
       wx.navigateTo({
         url: '../AMIStudy/AMIStudy',
       });

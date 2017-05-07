@@ -8,7 +8,7 @@
 .appeal-title {
   font-family: PingFangSC;
   color: #1B4149;
-  font-size: 50rpx;
+  font-size: 56rpx;
   margin-left: 50rpx;
   padding: 20rpx 0;
   font-weight: bold;

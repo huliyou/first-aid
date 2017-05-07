@@ -34,21 +34,20 @@
         data="{{title: '意识丧失', type: '应急', tap: tap, src: '../../assets/images/unconsciousness.svg' }}"
       />
       <template is="tutorial" data="{{ title: '烧烫伤', type: '应急', tap: tap, src: '../../assets/images/Scald.svg' }}" />
-      <template is="tutorial" data="{{ title: '肌肉痉挛', type: '应急', tap: tap, src: '../../assets/images/cramp.svg' }}" />
       <template is="tutorial" data="{{ title: '脑中风', type: '应急', tap: tap, src: '../../assets/images/cerebral-apoplexy.svg' }}" />
-      <template is="tutorial" data="{{ title: 'AMI', type: '应急', tap: tap, src: '../../assets/images/AMI.svg' }}" />
+      <template is="tutorial" data="{{ title: '心肌梗死', type: '应急', tap: tap, src: '../../assets/images/AMI.svg' }}" />
     </swiper-item>
     <swiper-item class="swiper-item">
       <template is="tutorial" data="{{ title: '意识丧失', type: '学习', tap: tap, src: '../../assets/images/unconsciousness.svg' }}" />
       <template is="tutorial" data="{{ title: '脑中风', type: '学习', tap: tap, src: '../../assets/images/cerebral-apoplexy.svg' }}" />
-      <template is="tutorial" data="{{ title: '肌肉痉挛', type: '学习', tap: tap, src: '../../assets/images/cramp.svg' }}" />
+      <template is="tutorial" data="{{ title: '抽筋', type: '学习', tap: tap, src: '../../assets/images/cramp.svg' }}" />
     </swiper-item>
   </swiper>
 </view>
 
 <template name="tutorial">
   <view bindtap="tap" class="tutorial-item" data-title="{{title}}" data-type="{{type}}" >
-    <text> {{title}} </text>
+    <text class="tutorial-item-title"> {{title}} </text>
     <image src="{{src}}" style="height: 50rpx; width: 50rpx" />
   </view>
 </template>

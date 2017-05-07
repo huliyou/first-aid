@@ -11,19 +11,16 @@
   width: 100%;
   background-color: #B2BEC1;
   height: 10rpx;
-  border-radius: 10rpx;
 }
 .steps-bar-selected {
   width: 100%;
   background-color: #FA5834;
   height: 10rpx;
-  border-radius: 10rpx;
 }
 .steps-bar-selected-current {
   width: 100%;
   background-color: #FA5834;
   height: 10rpx;
-  border-radius: 10rpx;
 }
 @keyframes bar-selected {
   from {

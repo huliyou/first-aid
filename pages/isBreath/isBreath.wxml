@@ -2,7 +2,7 @@
   <text class="unconsciousness-title animated fadeIn">患者有呼吸吗？</text>
   <image bindtap="tap" data-breathe="{{true}}" class="right" src="../../assets/images/right-large.svg" />
   <image bindtap="tap" data-breathe="{{false}}" class="right" src="../../assets/images/wrong-large.svg" />
-  <button bindtap="showModal" class="btn animated fadeInUp">不会判断？</button>
+  <button bindtap="showModal" class="btn">不会判断？</button>
   <view wx:if="{{showModal}}" class="modal">
     <view class="modal-border">
       <view class="modal-title">判断呼吸方法</view>

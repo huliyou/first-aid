@@ -64,7 +64,7 @@
   bottom: -2px;
   margin-left: 5%;
   border-radius: 3px;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
 }
 @keyframes bar-animation {
   from {
@@ -107,4 +107,8 @@
   vertical-align: middle;
   height: 150rpx;
   border-bottom: 1px solid rgba(178,190,193, 0.4);
+}
+.tutorial-item-title {
+  font-size: 42rpx;
+  font-weight: bold;
 }

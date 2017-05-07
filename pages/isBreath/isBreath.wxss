@@ -1,11 +1,14 @@
 @import "../../libs/animate.wxss"
 .unconsciousness {
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   color: #23454D;
+  padding-bottom: 200rpx;
+  overflow: hidden;
+  box-sizing: padding-box;
 }
 
 .unconsciousness-title {
@@ -17,12 +20,17 @@
 .right {
   height: 40vw;
   width: 40vw;
+  margin-bottom: 50rpx;
 }
 .btn {
-  width: 600rpx;
-  height: 100rpx;
+  width: 670rpx;
+  line-height: 100rpx;
   font-size: 40rpx;
-  margin: 5vh 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 40rpx 40rpx;
   color: #23454D;
   background-color: #fff;
   border: 1px solid #B2BEC1;
