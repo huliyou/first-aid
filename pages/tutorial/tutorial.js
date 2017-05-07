@@ -28,7 +28,11 @@ Page({
       wx.navigateTo({
         url: '../cramp/cramp',
       });
-    }  else if (e.target.dataset.title === 'AMI' && e.target.dataset.type === '应急'){
+    } else if (e.target.dataset.title === '脑中风' && e.target.dataset.type === '应急'){
+      wx.navigateTo({
+        url: '../cerebralApoplexy/cerebralApoplexy',
+      });
+    } else if (e.target.dataset.title === 'AMI' && e.target.dataset.type === '应急'){
       wx.navigateTo({
         url: '../AMI/AMI',
       });

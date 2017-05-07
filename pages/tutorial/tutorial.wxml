@@ -35,6 +35,7 @@
       />
       <template is="tutorial" data="{{ title: '烧烫伤', type: '应急', tap: tap, src: '../../assets/images/Scald.svg' }}" />
       <template is="tutorial" data="{{ title: '肌肉痉挛', type: '应急', tap: tap, src: '../../assets/images/cramp.svg' }}" />
+      <template is="tutorial" data="{{ title: '脑中风', type: '应急', tap: tap, src: '../../assets/images/cerebral-apoplexy.svg' }}" />
       <template is="tutorial" data="{{ title: 'AMI', type: '应急', tap: tap, src: '../../assets/images/AMI.svg' }}" />
     </swiper-item>
     <swiper-item class="swiper-item">

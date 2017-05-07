@@ -11,7 +11,8 @@
     "pages/noBreath/noBreath",
     "pages/burning/burning",
     "pages/cramp/cramp",
-    "pages/AMI/AMI"
+    "pages/AMI/AMI",
+    "pages/cerebralApoplexy/cerebralApoplexy"
   ],
 
   "window":{
