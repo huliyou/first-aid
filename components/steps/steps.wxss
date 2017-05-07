@@ -19,6 +19,20 @@
   height: 10rpx;
   border-radius: 10rpx;
 }
+.steps-bar-selected-current {
+  width: 100%;
+  background-color: #FA5834;
+  height: 10rpx;
+  border-radius: 10rpx;
+}
+@keyframes bar-selected {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
 
 .steps-dot {
   height: 15rpx;
@@ -27,6 +41,14 @@
   margin: 0 10rpx;
   border-radius: 50%;
   background-color: #B2BEC1;
+}
+.steps-dot-red {
+  height: 15rpx;
+  width: 15rpx;
+  flex-shrink: 0;
+  margin: 0 10rpx;
+  border-radius: 50%;
+  background-color: #FA5834;
 }
 .steps-dot-selected .steps-dot {
   height: 15rpx;
