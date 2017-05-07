@@ -6,6 +6,12 @@ Page({
     }, {
       description: '呈水母飘姿势,以手辅助将膝关节伸直, 另一手在抽筋部位用力搓揉。',
       src: '../../assets/images/dtqc.gif',
+    }, {
+      description: '大腿前侧抽筋:屈膝抓住足背处,向后 拉近臀部,另一手加以搓揉,按摩。',
+      src: '../../assets/images/dtqc.gif',
+    }, {
+      description: '小腿抽筋 : 一手握住足五指,将腓肠肌 尽量伸展,另一手用力搓捏到复原为止。',
+      src: '../../assets/images/xtd.gif',
     }],
   }
 });

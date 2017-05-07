@@ -1,11 +1,14 @@
 Page({
   data: {
     list: [{
-      description: '大腿前侧抽筋:屈膝抓住足背处,向后 拉近臀部,另一手加以搓揉,按摩。',
-      src: '../../assets/images/dtqc.gif',
+      description: '症状轻的患者自发性停止劳动进行休 息,症状重时立即原地静卧休息,不许随便搬动病人,更不能扶病人走动。',
+      src: '../../assets/images/xiuxi.png',
     }, {
-      description: '小腿抽筋 : 一手握住足五指,将腓肠肌 尽量伸展,另一手用力搓捏到复原为止。',
-      src: '../../assets/images/xtd.gif',
+      description: '服用硝酸甘油:一般心梗病人都会随身 携带这类药,可从病人身上搜索出。',
+      src: '../../assets/images/xsgy.png',
+    }, {
+      description: '并将药物置于病人舌下使其含服。',
+      src: '../../assets/images/xjgs.gif',
     }],
   }
 });
