@@ -24,6 +24,10 @@ Page({
       wx.navigateTo({
         url: '../burning/burning',
       });
+    } else if (e.target.dataset.title === '肌肉痉挛' && e.target.dataset.type === '应急'){
+      wx.navigateTo({
+        url: '../cramp/cramp',
+      });
     } else if (e.target.dataset.title === '意识丧失' && e.target.dataset.type === '学习'){
       wx.navigateTo({
         url: '../unconsciousnessStudy/unconsciousnessStudy',
@@ -35,6 +39,10 @@ Page({
     } else if (e.target.dataset.title === '肌肉痉挛' && e.target.dataset.type === '学习'){
       wx.navigateTo({
         url: '../crampStudy/crampStudy',
+      });
+    } else if (e.target.dataset.title === 'AMI' && e.target.dataset.type === '学习'){
+      wx.navigateTo({
+        url: '../AMIStudy/AMIStudy',
       });
     }
 

@@ -6,9 +6,11 @@
     "pages/unconsciousnessStudy/unconsciousnessStudy",
     "pages/cerebralApoplexyStudy/cerebralApoplexyStudy",
     "pages/crampStudy/crampStudy",
+    "pages/AMIStudy/AMIStudy",
     "pages/breathe/breathe",
     "pages/noBreath/noBreath",
-    "pages/burning/burning"
+    "pages/burning/burning",
+    "pages/cramp/cramp"
   ],
 
   "window":{
