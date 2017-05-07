@@ -14,4 +14,7 @@
   <view wx:for="{{list}}" wx:key="">
     <template is="cell" data="{{ number: index+1, description: item.description, src: item.src }}" />
   </view>
+  <view>
+    <image class="ok" src="../../assets/images/ok@2x.png" />
+  </view>
 </template>

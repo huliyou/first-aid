@@ -25,3 +25,9 @@
   width: 100%;
   margin-top: 40rpx;
 }
+
+.ok {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 80rpx 275rpx;
+}
