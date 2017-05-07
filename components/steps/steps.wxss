@@ -12,12 +12,33 @@
   background-color: #B2BEC1;
   height: 10rpx;
 }
+.steps-bar-first {
+  width: 100%;
+  background-color: #B2BEC1;
+  height: 10rpx;
+  border-top-left-radius: 10rpx;
+  border-bottom-left-radius: 10rpx;
+}
 .steps-bar-selected {
   width: 100%;
   background-color: #FA5834;
   height: 10rpx;
 }
+.steps-bar-selected-first {
+  width: 100%;
+  background-color: #FA5834;
+  height: 10rpx;
+  border-top-left-radius: 10rpx;
+  border-bottom-left-radius: 10rpx;
+}
 .steps-bar-selected-current {
+  width: 100%;
+  background-color: #FA5834;
+  height: 10rpx;
+}
+.steps-bar-selected-current-first {
+  border-top-left-radius: 10rpx;
+  border-bottom-left-radius: 10rpx;
   width: 100%;
   background-color: #FA5834;
   height: 10rpx;
