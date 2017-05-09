@@ -54,15 +54,17 @@
   width: 300rpx;
 }
 .isFetching {
-  margin-top: 120rpx;
+  margin-top: 20rpx;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20rpx 0;
   margin-left: 60rpx;
   margin-right: 60rpx;
-  border-bottom: 1px solid rgba(178,190,193, 0.4);
   width: 631rpx;
+}
+.loading {
+  width: 650rpx;
 }
 .isError {
   display: flex;

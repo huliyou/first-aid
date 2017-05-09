@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="28px" viewBox="0 0 17 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>右箭头</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="CPR-1-Copy-3" transform="translate(-597.000000, -1234.000000)" stroke="#FA5834" stroke-width="3">
+            <g id="右箭头" transform="translate(601.000000, 1247.500000) rotate(-315.000000) translate(-601.000000, -1247.500000) translate(592.000000, 1238.000000)">
+                <path d="M0.5,2.08578644 L16.5,2.08578644" id="Line"></path>
+                <path d="M16.5,19 L16.5,3" id="Line-Copy"></path>
+            </g>
+        </g>
+    </g>
+</svg>

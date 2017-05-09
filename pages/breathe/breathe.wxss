@@ -28,7 +28,7 @@
   font-family:PingFangSC;
   font-size:80rpx;
   font-weight:lighter;
-  margin-left:-100rpx;
+  margin-left:-120rpx;
   flex:1;
   line-height:120rpx;
 }

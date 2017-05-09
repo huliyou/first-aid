@@ -1,7 +1,7 @@
 <template name="steps">
   <view class="steps">
     <block wx:for="{{total}}">
-      <view wx:if="{{current < index}}" class="{{index===0?'steps-bar':'steps-bar-first'}}" />
+      <view wx:if="{{current < index}}" class="{{index===0?'steps-bar-first':'steps-bar'}}" />
       <view wx:if="{{current === index}}" class="{{index===0?'steps-bar-selected-current-first':'steps-bar-selected-current'}}" />
       <view wx:if="{{current > index}}" class="{{index===0?'steps-bar-selected-first':'steps-bar-selected'}}" />
       <block wx:if="{{current < index}}">

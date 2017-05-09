@@ -8,7 +8,7 @@
 即使没意识也可以听见。</view>
         <image class="img" src="../../assets/images/cewo.gif" />
         <view class="nav">
-          <view bindtap="next" class="next">下一步 {{">"}}</view>
+          <view bindtap="next" class="next">下一步 <image class="back-arrow" src="../../assets/images/arrow-right-white.svg" /></view>
         </view>
       </view>
     </swiper-item>

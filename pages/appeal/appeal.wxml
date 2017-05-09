@@ -9,7 +9,7 @@
     <view wx:if="{{ street.length > 8 }}" class="appeal-address-detail-small" >{{street}}</view>
   </view>
   <view class="isFetching" wx:if="{{ isFetching }}">
-    加载中...
+    <image class="loading" src="../../assets/images/loading.gif" />
   </view>
   <view wx:if="{{ !isFetching && isError }}" class="isError">
     <image class="errorImage" src="../../assets/images/invalidName.png" />

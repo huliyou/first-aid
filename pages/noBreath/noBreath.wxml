@@ -22,7 +22,7 @@
           />
         </view>
         <view class="nav-next">
-          <view bindtap="next" class="next-special">拖延急救后果严重，下一步 {{">"}}</view>
+          <view bindtap="next" class="next-special">拖延急救后果严重，下一步 <image class="back-arrow" src="../../assets/images/arrow-right-red.svg" /></view>
         </view>
       </view>
     </swiper-item>
@@ -33,7 +33,7 @@
         <image class="img" src="../../assets/images/dingwei.gif" />
         <view class="nav-end">
           <view bindtap="back" class="back"><image class="back-arrow" src="../../assets/images/arrow.svg" /></view>
-          <view bindtap="next" class="next">下一步 {{">"}}</view>
+          <view bindtap="next" class="next">下一步 <image class="back-arrow" src="../../assets/images/arrow-right-white.svg" /></view>
         </view>
       </view>
     </swiper-item>

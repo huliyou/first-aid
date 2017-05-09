@@ -24,6 +24,14 @@
   align-items: center;
   padding: 0 50rpx;
 }
+.appeal-address {
+  font-family:PingFangSC;
+  font-size:80rpx;
+  font-weight:lighter;
+  margin-left:-20rpx;
+  flex:1;
+  line-height:120rpx;
+}
 .description {
   flex-shrink: 0;
   font-size: 50rpx;
