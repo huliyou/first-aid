@@ -34,7 +34,7 @@
 }
 .description {
   flex-shrink: 0;
-  font-size: 50rpx;
+  font-size: 56rpx;
   font-weight: bold;
   line-height: 80rpx;
   width: 650rpx;

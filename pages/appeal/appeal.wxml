@@ -13,7 +13,7 @@
   </view>
   <view wx:if="{{ !isFetching && isError }}" class="isError">
     <image class="errorImage" src="../../assets/images/invalidName.png" />
-    <view class="errorMessage">定位能让你在陌生地方准确了解自己的位置。</view>
+    <view class="errorMessage">定位失败</view>
   </view>
   <view class="appeal-telephone-container">
     <image

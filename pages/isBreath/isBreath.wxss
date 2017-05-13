@@ -34,7 +34,7 @@
   margin: 40rpx 40rpx;
   color: #23454D;
   background-color: #fff;
-  border: 1px solid #B2BEC1;
+  border: 1rpx solid #B2BEC1;
   border-radius: 100rpx;
 }
 
