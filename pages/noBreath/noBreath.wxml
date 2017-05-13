@@ -29,7 +29,7 @@
 
     <swiper-item class="swiper-item">
       <view class="item-container">
-        <view class="description">很好，先定位心脏：病人<span class="importent">平躺</span>，手掌按图示摆放。</view>
+        <view class="description">很好,先定位心脏:将病人<span class="importent">平躺</span>,手掌按图示摆放。</view>
         <image class="img" src="../../assets/images/dingwei.gif" />
         <view class="nav-end">
           <view bindtap="back" class="back"><image class="back-arrow" src="../../assets/images/arrow.svg" /></view>

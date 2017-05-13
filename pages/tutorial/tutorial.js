@@ -33,7 +33,7 @@ Page({
       wx.navigateTo({
         url: '../AMI/AMI',
       });
-    } else if (e.currentTarget.dataset.title === '意识丧失' && e.currentTarget.dataset.type === '学习'){
+    } else if (e.currentTarget.dataset.title === '意识丧失 · 无呼吸' && e.currentTarget.dataset.type === '学习'){
       wx.navigateTo({
         url: '../unconsciousnessStudy/unconsciousnessStudy',
       });

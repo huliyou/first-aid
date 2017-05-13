@@ -11,7 +11,7 @@
   color: #FA5834;
   height: 100rpx;
   width: 100%;
-  font-size: 50rpx;
+  font-size: 56rpx;
   margin-left: 50rpx;
   margin-top: 80rpx;
   margin-bottom: 80rpx;

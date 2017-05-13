@@ -21,6 +21,7 @@
   height: 40vw;
   width: 40vw;
   margin-bottom: 50rpx;
+  margin-top: 10rpx;
 }
 .btn {
   width: 670rpx;

@@ -6,7 +6,7 @@
       <view class="item-container">
         <view class="description">让病人<span class="importent">侧卧</span>,头部<span class="importent">后仰</span>,可以跟她说话,安抚他,
 即使没意识也可以听见。</view>
-        <image class="img" src="../../assets/images/cewo.gif" />
+        <image class="img" src="../../assets/images/cewo2.gif" />
         <view class="nav">
           <view bindtap="next" class="next">下一步 <image class="back-arrow" src="../../assets/images/arrow-right-white.svg" /></view>
         </view>

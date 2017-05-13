@@ -7,8 +7,8 @@
     <view class="modal-border">
       <view class="modal-title">判断呼吸方法</view>
       <view class="modal-description">先压额抬下巴、把脸凑近伤者鼻子上方，感受有无呼吸气息。</view>
-      <image class="modal-image" src="../../assets/images/panduan.gif" />
-      <view class="modal-description">目光顺着方向观看伤者腹部有无 呼吸的起伏动作。</view>
+      <image class="modal-image" src="../../assets/images/panduan2.gif" />
+      <view class="modal-description">目光顺着方向观看伤者腹部有无呼吸的起伏动作。</view>
       <image class="modal-image" src="../../assets/images/huxi.gif" />
       <view bindtap="confirm" class="modal-confirm">确定</view>
     </view>

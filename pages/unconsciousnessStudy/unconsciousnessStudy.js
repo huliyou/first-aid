@@ -1,7 +1,7 @@
 Page({
   data: {
     list: [{
-      description: '判断伤者有无呼吸,(1)先压额抬下巴、 把脸凑近伤者鼻子上方,感受有无无呼出的气息。',
+      description: '判断伤者有无呼吸,先压额抬下巴、 把脸凑近伤者鼻子上方,感受有无无呼出的气息。',
       src: '../../assets/images/panduan.gif',
     }, {
       description: '目光顺着方向观看伤者腹部有无 呼吸的起伏动作。',

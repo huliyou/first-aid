@@ -8,7 +8,7 @@ Page({
       src: '../../assets/images/xsgy.png',
     }, {
       description: '并将药物置于病人舌下使其含服。',
-      src: '../../assets/images/xjgs.gif',
+      src: '../../assets/images/xjgs2.gif',
     }],
   }
 });

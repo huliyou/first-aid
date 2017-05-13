@@ -11,15 +11,18 @@
 .tutorial-list-cell-number {
   background-color: #FA5834;
   font-size: 40rpx;
+  font-weight: bold;
   color: white;
   flex-shrink: 0;
   border-radius: 70rpx;
   height: 70rpx;
   width: 70rpx;
+  line-height: 70rpx;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 50rpx;
+  margin-top: 10rpx;
 }
 
 .tutorial-list-cell-image {
