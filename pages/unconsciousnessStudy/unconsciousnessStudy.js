@@ -1,14 +1,16 @@
 Page({
   data: {
     list: [{
-      description: '判断伤者有无呼吸,先压额抬下巴、 把脸凑近伤者鼻子上方,感受有无无呼出的气息。',
-      src: '../../assets/images/panduan.gif',
+      description: '判断病人有无呼吸:先压额头抬下巴,把脸凑近伤者鼻子上方,感受病人有无气息的呼出。',
+      src: '../../assets/images/panduan2.gif',
+      height: '399rpx',
     }, {
       description: '目光顺着方向观看伤者腹部有无 呼吸的起伏动作。',
       src: '../../assets/images/huxi.gif',
+      height: '400rpx',
     }, {
       description: '确认伤者无意识无呼吸,开始对其进行 急救,并大声呼喊周围的人帮忙施救和 拨打 120,施救前确保自己、患者和旁 人的安全,如有必要,先把患者转移到安全地带,再在进行施救。',
-      src: '../../assets/images/hujiu.gif',
+      src: '../../assets/images/hujiu2.gif',
     }, {
       description: '定位:两只手指指向胸肋最下方,手掌 贴近手指完成心脏定位,手掌底部作为 接触点定位心脏的手掌不动,另外一只 手从定位好的手背处进行交叉相握双手 握好,准备进行按压,按压时要只用手 掌底部发力,以免造成受力不均压伤肋骨。',
       src: '../../assets/images/dingwei.gif',
@@ -16,13 +18,13 @@ Page({
       description: '以每分钟 100-120 下的频率进行按压, 按压时候可参考箭头的运动频率。深度 为 5~6cm,按压 30 次停止按压,进行下一步人工呼吸。',
       src: '../../assets/images/anya.gif',
     }, {
-      description: '对其进行人工呼吸,一只手捏住伤者鼻 子,另一只手把病者嘴张开对其进行人 工呼吸;用嘴完全地包住病员的嘴巴, 将气体吹入病员的体内,吹气两下完成人工呼吸。',
-      src: '../../assets/images/rghx.gif',
+      description: '对其进行人工呼吸,一只手捏住病人鼻子,另一只手把病人嘴巴张开;吸一口气再用嘴完全地包住病人的嘴巴,将气体吹进病人的体内,吹气两下完成人工呼吸。',
+      src: '../../assets/images/rghx2.gif',
     }, {
       description: '按压 30 次,吹气 2 次为一个循环,五 个循环后重新判断有无呼吸,如果仍无 恢复意识,则继续进行五个循环,等待 救护人员到来。',
     }, {
       description: '如果伤者恢复了呼吸但依然没意识,让 病人侧卧,头部后仰,可以跟他说话,安抚他,即使没意识也可以听见。',
-      src: '../../assets/images/cewo.gif',
+      src: '../../assets/images/cewo2.gif',
     }],
   }
 });

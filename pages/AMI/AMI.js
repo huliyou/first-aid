@@ -5,7 +5,7 @@ Page({
       src: '../../assets/images/xiuxi.png',
     }, {
       description: '服用硝酸甘油:一般心梗病人都会随身携带这类药,可从病人身上搜索出。',
-      src: '../../assets/images/xsgy.png',
+      src: 'https://qufenqipublicrw.oss-cn-hangzhou.aliyuncs.com/fe/xsgy.png',
     }, {
       description: '并将药物置于病人舌下使其含服。',
       src: '../../assets/images/xjgs2.gif',

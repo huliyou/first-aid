@@ -4,7 +4,11 @@
     <view>
       <text>{{description}}</text>
       <block wx:if="{{src}}">
-        <image class="tutorial-list-cell-image" src="{{src}}"/>
+        <image
+          class="tutorial-list-cell-image"
+          src="{{src}}"
+          style="height: {{height}}; width: {{width}}"
+        />
       </block>
     </view>
   </view>
@@ -12,7 +16,7 @@
 
 <template name="tutorialList">
   <view wx:for="{{list}}" wx:key="">
-    <template is="cell" data="{{ number: index+1, description: item.description, src: item.src }}" />
+    <template is="cell" data="{{ number: index+1, description: item.description, src: item.src, height: item.height, width: item.width }}" />
   </view>
   <view>
     <image class="ok" src="../../assets/images/ok@2x.png" />
