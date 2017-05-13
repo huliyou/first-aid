@@ -65,6 +65,7 @@
 }
 .loading {
   width: 650rpx;
+  height: 250rpx;
 }
 .isError {
   display: flex;
