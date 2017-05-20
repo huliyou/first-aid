@@ -15,10 +15,7 @@
 * utils — 存放utils文件，可require引入
 
 ## 界面展示
-<video controls="controls">
-  <source type="video/mp4" src="./doc/preview.mp4"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
+![](./doc/preview.gif)
 
 ## 项目地址
 [https://github.com/huliyou/first-aid](https://github.com/huliyou/first-aid)
